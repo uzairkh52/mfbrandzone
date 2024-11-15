@@ -35,12 +35,6 @@ export default function Home() {
             height={38}
             priority
           />
-          <ol>
-            <li>
-              Get started by editing <code>pages/index.jsaaa</code>.
-            </li>
-            <li>Save and see your changes instantly.</li>
-          </ol>
 
           <div className={styles.ctas}>
             <a
