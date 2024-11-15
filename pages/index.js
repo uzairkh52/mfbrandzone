@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import localFont from "next/font/local";
 import styles from "@/styles/Home.module.css";
-import { Button, Divider } from "semantic-ui-react";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,7 +27,6 @@ export default function Home() {
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
         <main className={styles.main}>
-
           <Image
             className={styles.logo}
             src="/next.svg"
@@ -41,9 +39,7 @@ export default function Home() {
             <li>
               Get started by editing <code>pages/index.js</code>.
             </li>
-            
-            <Divider horizontal>Or</Divider>
-
+            <li>Save and see your changes instantly.</li>
           </ol>
 
           <div className={styles.ctas}>
