@@ -8,22 +8,19 @@ const Header = () => {
   return (
     <>
 <Head>
-<meta name="google-site-verification" content="l556Qqvxm0WIu4TDeOY0EMYPtEAd6zYR0nS9JBMNWoo" />
-  {/* <!-- Google tag (gtag.js) --> */}
-
-  {/* <!-- Google tag (gtag.js) --> */}
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEKHDZLXH"></script>
+{/* <!-- Google tag (gtag.js) --> */}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JSWTFCCN6J"></script>
 <script>
   {`window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-WJEKHDZLXH');`}
+  gtag('config', 'G-JSWTFCCN6J');`}
 </script>
 
 </Head>
 {/* <!-- Google Tag Manager (noscript) --> */}
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-2RCR6WE1BW"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-JSWTFCCN6J"
 height="0" width="0" className={styles.dNone + styles.hidden}></iframe></noscript>
 
     </>
