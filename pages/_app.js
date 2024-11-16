@@ -7,7 +7,10 @@ export default function App({ Component, pageProps }) {
       ReactGA.initialize('Your-GA-Measurement-ID');
       ReactGA.pageview(window.location.pathname + window.location.search);
     }, []);
-  <GoogleAnalytics trackPageViews />
+    
+    return <>
+    <GoogleAnalytics trackPageViews />
+    <Component {...pageProps} />;
 
-  return <Component {...pageProps} />;
+  </>
 }
