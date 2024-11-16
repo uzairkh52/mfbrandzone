@@ -22,7 +22,7 @@ export default function Document() {
          {/* Google Tag Manager NoScript */}
          <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=G-2RCR6WE1BW"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-2RCR6WE1BW"
             height="0"
             width="0"
             style={{ display: 'none', visibility: 'hidden' }}
