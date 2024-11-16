@@ -4,7 +4,7 @@ import { GoogleAnalytics } from "nextjs-google-analytics";
 
 export default function App({ Component, pageProps }) {
     useEffect(() => {
-      ReactGA.initialize('Your-GA-Measurement-ID');
+      ReactGA.initialize('G-2RCR6WE1BW');
       ReactGA.pageview(window.location.pathname + window.location.search);
     }, []);
     
