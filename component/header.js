@@ -1,9 +1,7 @@
-import { Button, Container } from "semantic-ui-react";
 import Image from "next/image";
-import styles from "../sass/Layout/Header.module.scss";
-
 import Script from 'next/script'
 import Head from 'next/head';
+import styles from "@/styles/sass/components/Header.module.scss"
 
 const Header = () => {
   
